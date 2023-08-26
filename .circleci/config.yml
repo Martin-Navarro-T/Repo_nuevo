@@ -10,4 +10,4 @@ jobs:
           command: pip install -r requirements.txt
       - run:
           name: Running Tests
-          command: coverage run -m unittest && coverage xml && coverage report -m python_app/
+          command: python_app/ coverage run -m unittest && coverage xml && coverage report -m 
