@@ -1,3 +1,2 @@
-def suma(self):
-    sum = a + b
-    return sum 
+def suma(a,b):
+    return a + b
