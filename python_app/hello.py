@@ -1,4 +1,7 @@
 a = 2
 b = 2
-x = a + b
+
 c = 5
+def suma(self):
+    sum = a + b
+    return sum 

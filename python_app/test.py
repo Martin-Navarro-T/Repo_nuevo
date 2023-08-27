@@ -1,8 +1,8 @@
 import unittest
-from hello import x
+from hello import suma
 class TestSuma(unittest.TestCase):
-    def test(self):
-        self.assertEqual(x,4)
+    def test_init(self):
+        self.assertEqual(sum(2,2),4)
         
 if __name__=="__main__":
     unittest.main()
