@@ -1,7 +1,6 @@
 [run]
 source =
-    game
-    tests
+    python_app
 omit =
     env/*
     */test*
